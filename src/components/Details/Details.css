@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    margin: 5% 18%;
+
+}
+.img img{
+    height: 20em;
+}
+.Details {
+    padding: 0 1.5em;
+}
+
+.description {
+    margin-top: 2em;
+    color:#606060;
+}
+.name {
+    font-weight: bold;
+
+}
+
+#oompaDescription h1{
+
+    font-size: 22px;
+
+}

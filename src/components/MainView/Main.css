@@ -1,0 +1,92 @@
+
+.Title{
+    text-align: center;
+
+}
+.firstTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+.subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A8A8A8	;
+    font-style: italic;
+    padding: 10px;
+    font-size: 2em;
+    
+}
+.Card img{
+    width: 100%;
+    height: 17em; 
+    border-radius: 3px;
+    
+}
+
+.Oompas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1em;
+
+}
+
+.Card {
+    flex:  0 23%;
+    padding: 1.5em;
+    border-radius: 3px;
+
+}
+
+@media ( max-width: 768px) {
+    .Card {
+    flex-basis: 42%;
+    }
+}
+
+@media ( max-width: 380) {
+    .Card {
+    flex-basis: 80%;
+    }
+    img{
+
+    height: 12em;
+    }
+}
+.Card:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #383838;
+}
+.gender{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 2px 0;
+    color: grey;
+    text-decoration: none;
+}
+.profession{
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 2px 0;
+    color: grey;
+    text-decoration: none;
+}
+.details{
+    margin-left: 5px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.loader.center {
+    text-align: center;
+    margin-top: 10em;
+}
+.loader.center p{
+    font-size: 30px;
+}

@@ -1,0 +1,28 @@
+.App-header {
+    background-color: #dcdcdc;
+    height: 50px;
+    text-align:centers;
+    width: 100%;
+    
+}
+.logo img{
+    height: 25px;
+    width: 33px;
+    margin-right: 1em;
+    padding-top: 13px;   
+}
+.text{
+    padding-top: 13px;
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar a{
+    display: flex;
+    padding: 0 10%;
+    height: 50px;
+    
+}
+
+
